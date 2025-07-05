@@ -1,5 +1,5 @@
 
-package e.commerce_system;
+package Ecommerce_system;
 import Model.Products;
 import Cart.CartService;
 import Check_Out.CheckOut;

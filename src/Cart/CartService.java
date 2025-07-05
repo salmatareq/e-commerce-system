@@ -25,7 +25,7 @@ public class CartService {
   
           double total=p.getprice()*quntity;
           customer.setsubtotal(total);
-      // System.out.println("1");
+     
   int x=-1;
      for(int i=0;i<customer.Customer_purchases.size();i++){
           if(!customer.Customer_purchases.get(i).product.isShippable())

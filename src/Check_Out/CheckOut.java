@@ -32,7 +32,7 @@ public class CheckOut {
              
       System.out.println("\n**   Checkout receipt   ** ");
   for(int i=0;i<customer.Customer_purchases.size();i++){
-     // subtotal+=Customer_purchases.get(i).product.getprice()*Customer_purchases.get(i).quantity;
+     
            System.out.println(customer.Customer_purchases.get(i).quantity+" "+customer.Customer_purchases.get(i).product.getname()+" "+customer.Customer_purchases.get(i).product.getprice());
     
              }
