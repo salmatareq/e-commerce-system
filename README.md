@@ -15,17 +15,15 @@ Project Structure
 
 ecommerce-system/
 
-├── e.commerce_system/
 
-│   ├── ECommerce_system.java
-
-│   ├── Products.java
-
-├── CustomerPackage/
-
-│   ├── Customers.java
-
-│   ├── Item_details.java
+├── Check_Out/
+│   └── CheckOut.java
+├── cart/
+│   ├── CartService.java
+│   └── Item_details.java
+└── model/
+   ├── Products.java
+   └── Customers.java
 
 
 Example Run
