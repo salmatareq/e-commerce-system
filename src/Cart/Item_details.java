@@ -1,13 +1,13 @@
 
-package CustomerPackage;
+package Cart;
 
-import e.commerce_system.Products;
+import Model.Products;
 
 
 public class Item_details {
    
-   Products product;
-    int quantity;
+ public Products product;
+  public  int quantity;
 
     public Item_details(Products product, int quantity) {
       

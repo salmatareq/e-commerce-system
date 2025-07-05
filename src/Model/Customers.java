@@ -1,6 +1,6 @@
 
-package CustomerPackage;
-import e.commerce_system.Products;
+package Model;
+import Cart.Item_details;
 import java.time.LocalDate;
 import java.util.*;
 
@@ -15,8 +15,8 @@ double paid_amount ;
      this.name=name;
      this.balance=balance;
  }
-  List<Item_details> Customer_purchases = new ArrayList<>();
- public void add_to_card(Products p,int quntity){
+ public  List<Item_details> Customer_purchases = new ArrayList<>();
+ /*public void add_to_card(Products p,int quntity){
  
    Item_details item=new Item_details(p,quntity);
    if (quntity > p.getquantity()) {
@@ -46,9 +46,9 @@ double paid_amount ;
      else 
       Customer_purchases.add(x,item);
    }
-   
+   */
     
- 
+ /*
  public void Checkout(){
       if(subtotal==0){System.out.println("cart is empty");
       return;}
@@ -81,4 +81,43 @@ paid_amount=subtotal+fees;
     balance -= paid_amount;
     System.out.println("Payment successful!");
     System.out.println("Remaining balance: " + balance);
-}}
+}*/
+public double getsubtotal(){
+
+return subtotal;
+}
+
+  public double getfees(){
+
+return fees;
+}
+ 
+
+public void setfees(double x){
+    fees=x;
+}
+
+public List<Item_details> getCustomerPurchases() {
+    return Customer_purchases;
+}
+
+public void Update_balance(double balance){
+
+this.balance-=balance;
+
+}
+public void setpaidAmount(double amount){
+   this.paid_amount=amount;
+}
+
+    public double getbalance() {
+        return balance;
+         }
+    public void setsubtotal(double x){
+    
+        this.subtotal+=x;
+    
+    
+    }
+
+}

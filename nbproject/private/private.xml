@@ -3,13 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/20114/OneDrive/Documents/NetBeansProjects/e-commerce_system/src/e/commerce_system/DigitalProduct.java</file>
-            <file>file:/C:/Users/20114/OneDrive/Documents/NetBeansProjects/e-commerce_system/src/e/commerce_system/Customers.java</file>
-            <file>file:/C:/Users/20114/OneDrive/Documents/NetBeansProjects/e-commerce_system/src/e/commerce_system/Products.java</file>
-            <file>file:/C:/Users/20114/OneDrive/Documents/NetBeansProjects/e-commerce_system/src/e/commerce_system/Item_details.java</file>
-            <file>file:/C:/Users/20114/OneDrive/Documents/NetBeansProjects/e-commerce_system/src/e/commerce_system/PerishableProduct.java</file>
-            <file>file:/C:/Users/20114/OneDrive/Documents/NetBeansProjects/e-commerce_system/src/e/commerce_system/PhysicalProduct.java</file>
+            <file>file:/C:/Users/20114/OneDrive/Documents/NetBeansProjects/e-commerce_system/src/Cart/CartService.java</file>
+            <file>file:/C:/Users/20114/OneDrive/Documents/NetBeansProjects/e-commerce_system/src/Model/Customers.java</file>
+            <file>file:/C:/Users/20114/OneDrive/Documents/NetBeansProjects/e-commerce_system/src/Check_Out/CheckOut.java</file>
+            <file>file:/C:/Users/20114/OneDrive/Documents/NetBeansProjects/e-commerce_system/src/Model/Products.java</file>
             <file>file:/C:/Users/20114/OneDrive/Documents/NetBeansProjects/e-commerce_system/src/e/commerce_system/ECommerce_system.java</file>
+            <file>file:/C:/Users/20114/OneDrive/Documents/NetBeansProjects/e-commerce_system/src/Cart/Item_details.java</file>
         </group>
     </open-files>
 </project-private>

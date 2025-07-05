@@ -1,6 +1,9 @@
 
 package e.commerce_system;
-import CustomerPackage.Customers;
+import Model.Products;
+import Cart.CartService;
+import Check_Out.CheckOut;
+import Model.Customers;
 import java.time.LocalDate;
 import java.util.*;
 
@@ -23,7 +26,7 @@ Products.productsList.add(cheese);
 Products.productsList.add(biscuits);
         
         Customers salma=new Customers("salma",55000);
-        
+        System.out.println("v");
        System.out.println("Welcome to our E-Commerce System!");
 System.out.println("We're happy to have you with us today ");
        
@@ -49,7 +52,7 @@ System.out.println("-------------------------------------------------");
                     int quantity;  
                     quantity=input.nextInt();
                     input.nextLine();
-                    salma.add_to_card(p,quantity);
+                    CartService.add_to_card(salma,p,quantity);
                break;
             }
         }
@@ -58,7 +61,7 @@ System.out.println("-------------------------------------------------");
             }
     }
         else
-        { salma.Checkout();
+        { CheckOut.Checkoutprocess(salma);
         break;}
        
         }

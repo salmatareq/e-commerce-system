@@ -1,5 +1,6 @@
 
-package e.commerce_system;
+package Model;
+import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter; 
 import java.util.*;
@@ -9,7 +10,7 @@ import java.util.*;
 public class Products {
    
     String name;
-    double price;
+   double price;
     int quantity;
     boolean is_expire;
     boolean is_shippable;
