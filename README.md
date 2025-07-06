@@ -17,13 +17,21 @@ ecommerce-system/
 
 
 ├── Check_Out/
+
 │   └── CheckOut.java
+
 ├── cart/
+
 │   ├── CartService.java
+
 │   └── Item_details.java
+
 └── model/
+
    ├── Products.java
+   
    └── Customers.java
+   
 
 
 Example Run
