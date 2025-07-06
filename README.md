@@ -28,9 +28,9 @@ ecommerce-system/
 
 └── model/
 
-    ├── Products.java
+  ├── Products.java
    
-    └── Customers.java
+  └── Customers.java
    
 
 
